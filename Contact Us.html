@@ -16,5 +16,38 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section id="contact_details_sect">
+            <h1>You can contact us here:</h1>
+            <h2>Phone Number</h2>
+            <p>0829602680</p>
+            <h2>Whatsapp</h2>
+            <p>0829602680</p>
+        </section>
+        <section id="query_sect">
+            <h2>Or you can fill in this form</h2>
+            <form id="query_form">
+                <fieldset>
+                    <label for="first-name">Enter Your Name: <input id="first-name" type="text" placeholder="eg. John" required></label>
+                    <label for="surname">Enter Your Surname: <input id="surname" type="text" placeholder="eg. Doe" required></label>
+                    <label for="phone-number">Enter Your Phone Number: <input id="phone-number" type="tel" placeholder="eg. 012 345 6789" required></label>
+                    <label for="email">Enter Your Email Address(Optional):<input id="email" type="email" placeholder="eg. johndoe@gmail.com"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Query Type(required):</legend>
+                    <label for="question"><input id="question" type="radio" checked> Question</label>
+                    <label for="review"><input id="review" type="radio"> Review</label>
+                    <label for="complaint"><input id="complaint" type="radio"> Complaint</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Query:</legend>
+                    <label for="customer-message">
+                        <textarea id="customer-message" rows="10" cols="60" placeholder="Please share your feedback for us here"></textarea>
+                    </label>
+                </fieldset>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
